@@ -8,6 +8,16 @@ use App\Enums\Tamano;
 <?php function formulario():void{?>
 
     <form action="" method="post">
+
+        <label for="">Nombre Cliente</label>
+        <input type="text" name="nombreCliente">
+
+        <label for="">Correo</label>
+        <input type="email" name="correo">
+
+        <label for="">Carnet</label>
+        <input type="text" name="carnet">
+
         <label for="">Tipo de Producto</label>
 
         <input type="radio" name="producto" id="" value="Bebida">
