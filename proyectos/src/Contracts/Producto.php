@@ -10,11 +10,6 @@ abstract class Producto{
     {
     }
 
-    public abstract function precioFina():float; 
+    public abstract function precioFina(int $cantidad):float;
 }
-
-
-
-
-
 ?>
